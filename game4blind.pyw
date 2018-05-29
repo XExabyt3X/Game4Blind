@@ -28,7 +28,7 @@ class Ding(object):
         if not frequency == prefrequency:
             pygame.mixer.quit()
         pygame.mixer.init(frequency)
-        pygame.mixer.music.load(os.path.join("Assets", "piano.mp3"))
+        pygame.mixer.music.load("piano.mp3")
         pygame.mixer.music.play()
 
 '''ik it's a game for blind people but come on, a blank screens pretty boring for "non-blind". ;)'''
