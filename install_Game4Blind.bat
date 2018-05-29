@@ -73,5 +73,5 @@ echo 	del /s /q Game4Blind.bat>> Game4Blind.bat
 echo 	echo Successfully uninstalled. Press enter to continue>> Game4Blind.bat
 echo 	pause^>nul>> Game4Blind.bat
 echo )>> Game4Blind.bat
-echo done
+echo Successfully installed. Press enter to close.
 pause>nul
